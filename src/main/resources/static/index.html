@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+    <title>Cover Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="js/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="js/cover.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Parcial ARSW-Estado de clima</h3>
+          <nav class="nav nav-masthead justify-content-center">
+          </nav>
+        </div>
+          <main role="main" class="inner cover">
+        <h1 class="cover-heading">Clima</h1>
+        <form >
+            Ciudad: <input id="ciudad" type="text" name="ciudad" ><br>
+             <button onclick="ConsultControllerModule.showInfo()">Click me</button> 
+        </form>
+      </main>
+      </header>
+        <div id="div1">
+        <p id="output">
+            
+        </p>
+        </div>
+        
+      
+      
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.js"> <!--integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"--></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/ConsultController.js"></script>
+    <script src="js/ConsultRestController.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</body></html>
